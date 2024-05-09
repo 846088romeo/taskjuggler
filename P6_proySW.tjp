@@ -186,14 +186,14 @@ task WMGame "Web & Mobile Game" {
     chargeset support
     responsible dev3
     depends WMGame.tback.tBEd
-    task tCSd "Cloud Support Design" {
+    task tCSdes "Cloud Support Design" {
       effort 3d
       allocate dev3
     }
-    task tCSd "Cloud Support Development" {
+    task tCSdev "Cloud Support Development" {
       effort 4d
       allocate dev3
-      depends WMGame.tCloudSupport.tCSd
+      depends WMGame.tCloudSupport.tCSdes
     }
   }
 
