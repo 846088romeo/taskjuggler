@@ -70,7 +70,7 @@ resource dev3 "Peter Green" {
   email "kkk@unizar.es"
 }
 
-shift availability "monday - friday 13:00 - 17:00" {
+shift availability4h "monday - friday 13:00 - 17:00" {
   workinghours mon - fri 13:00 - 17:00
 }
 
