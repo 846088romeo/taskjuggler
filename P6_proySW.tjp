@@ -74,7 +74,7 @@ resource Abel "Abel Romeo" {
   email "846088@unizar.es"
   rate 120
   actual:leaves project 2024-05-07 - 2024-05-12
-  shifts t4h
+  availability 4h
 }
 
 
