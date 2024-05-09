@@ -70,11 +70,15 @@ resource dev3 "Peter Green" {
   email "kkk@unizar.es"
 }
 
+shift availability "monday - friday 13:00 - 17:00" {
+  workinghours mon - fri 13:00 - 17:00
+}
+
 resource Abel "Abel Romeo" {
   email "846088@unizar.es"
   rate 120
   actual:leaves project 2024-05-07 - 2024-05-12
-  availability 4h
+  shifts availability4h
 }
 
 
