@@ -152,7 +152,7 @@ task WMGame "Web & Mobile Game" {
       effort 15d
       allocate dev2, dev3
       depends WMGame.twebF.tGUId
-      details "The web front end is implemented using HTML5, CSS3 and JavaScript."
+      summary "The team has ended the construction of the web front end before deadline."
     }
     task tFEt "Web Front End Test" {
       effort 6d
